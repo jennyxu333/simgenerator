@@ -59,3 +59,4 @@ class Event(object):
 	def do(self,person):
 		exec(self.activity)
 		person.busy += time
+# Boo
